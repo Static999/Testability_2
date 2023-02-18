@@ -5,7 +5,7 @@ public class Main {
             BmiService service = new BmiService();
             int weight = 74; // Вес (кг)
             float height = 1.77F; // Рост (м)
-            float index = service.calculate( weight, (float) height);
+            float index = service.calculate(weight, (float) height);
             System.out.print(index);
         }
     }
